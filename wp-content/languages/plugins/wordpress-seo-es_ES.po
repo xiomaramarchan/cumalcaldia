@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Yoast SEO - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-23 08:13:16+0000\n"
+"PO-Revision-Date: 2022-08-23 18:41:45+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,58 @@ msgstr ""
 "X-Generator: GlotPress/4.0.0-alpha.1\n"
 "Language: es\n"
 "Project-Id-Version: Plugins - Yoast SEO - Stable (latest release)\n"
+
+#: admin/views/user-profile.php:72
+msgid "Removes the inclusive language analysis section from the metabox and disables all inclusive language-related suggestions."
+msgstr "Elimina la sección de análisis de lenguaje inclusivo de la caja meta y desactiva todas las sugerencias relacionadas con el lenguaje inclusivo."
+
+#: admin/views/user-profile.php:69
+msgid "Disable inclusive language analysis"
+msgstr "Desactivar el análisis del lenguaje inclusivo"
+
+#: admin/views/tabs/dashboard/features.php:92
+msgid "This feature has been disabled, since it is not supported for your language yet."
+msgstr "Esta característica se ha desactivado, ya que todavía no es compatible con tu idioma."
+
+#: admin/views/class-yoast-feature-toggles.php:98
+msgid "Discover why inclusive language is important for SEO."
+msgstr "Descubre por qué el lenguaje inclusivo es importante para el SEO."
+
+#: admin/views/class-yoast-feature-toggles.php:97
+msgid "The inclusive language analysis offers suggestions to write more inclusive copy."
+msgstr "El análisis del lenguaje inclusivo ofrece sugerencias para escribir textos más inclusivos."
+
+#: admin/views/class-yoast-feature-toggles.php:91 js/dist/new-settings.js:103
+msgid "Inclusive language analysis"
+msgstr "Análisis del lenguaje inclusivo"
+
+#: admin/metabox/class-metabox-section-inclusive-language.php:30
+#: js/dist/externals-components.js:119
+msgid "Inclusive language"
+msgstr "Lenguaje inclusivo"
+
+#. translators: %1$s expands to the opening anchor tag, %2$s to the closing
+#. anchor tag, %3$s to the inclusive language score.
+#: admin/formatter/class-metabox-formatter.php:172
+#: admin/formatter/class-metabox-formatter.php:179
+#: admin/formatter/class-metabox-formatter.php:186
+#: admin/formatter/class-metabox-formatter.php:193
+msgid "%1$sInclusive language%2$s: %3$s"
+msgstr "%1$sLenguaje inclusivo%2$s: %3$s"
+
+#. translators: %1$s is a link to the Features tab on the Yoast SEO Dashboard
+#. page, %2$s is a link to the blog post about this feature, %3$s is the link
+#. closing tag.
+#: admin/class-inclusive-language-notice.php:113
+msgid "<strong>New in Yoast SEO Premium 19.2:</strong> Did you know that you can now %1$senable the beta version of our inclusive language feature%3$s to get feedback on the use of inclusive language? This feature is disabled by default. %2$sLearn more about this feature%3$s."
+msgstr "<strong>Novedades de Yoast SEO Premium 19.2:</strong> ¿Sabías que ahora puedes %1$sactivar la versión beta de nuestra característica de lenguaje inclusivo%3$s para obtener indicaciones sobre el uso de lenguaje inclusivo? Esta característica está desactivada por defecto. %2$sAprende más sobre esta característica%3$s."
+
+#. translators: %1$s is a link to the Features tab on the Yoast SEO Dashboard
+#. page, %2$s is a link to the blog post about this feature, %3$s is the link
+#. closing tag.
+#: admin/class-inclusive-language-notice.php:101
+msgid "<strong>New in Yoast SEO Premium 19.2:</strong> Did you know that you can now get feedback on the use of inclusive language? This feature is disabled by default. Please contact your Network admin if you want to enable it. %2$sLearn more about this feature%3$s."
+msgstr "<strong>Novedades de Yoast SEO Premium 19.2:</strong> ¿Sabías que ahora puedes obtener indicaciones sobre el uso de lenguaje inclusivo? Esta característica está desactivada por defecto. Por favor, contacta con el administrador de la red si quieres activarla. %2$sAprende más sobre esta característica%3$s."
 
 #. translators: %1$s expands to the opening span tag (styling). %2$s expands to
 #. the closing span tag.
