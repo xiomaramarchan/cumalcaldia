@@ -471,6 +471,9 @@ blockquote::before {
     border-left-color: #1151d3;
     border-color: transparent transparent transparent #1151d3;
 }
+.wp-block-search .wp-block-search__label::after, .mg-widget .wp-block-group h2::after {
+	background-color: #1151d3;
+}
 /*==================== Sidebar ====================*/
 .mg-sidebar .mg-widget {
 	background: #fff;
@@ -879,7 +882,7 @@ div.wpforms-container-full .wpforms-form button[type=submit], div.wpforms-contai
     background-color: #1151d3;
     color: #fff;
 }
-.wp-block-search .wp-block-search__input:hover {
+.wp-block-search .wp-block-search__input:hover, .wp-block-search .wp-block-search__input:focus {
     border-color: #1151d3;
 }
 .wp-block-search .wp-block-search__button

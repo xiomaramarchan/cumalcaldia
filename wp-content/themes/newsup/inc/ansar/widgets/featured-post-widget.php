@@ -67,7 +67,7 @@
 		global $post;
 
 		$post_type = array(
-			'posts_per_page' => 4,
+			'posts_per_page' => 5,
 			'post_type' => array('post'),
 			'post__not_in' => get_option('sticky_posts'),
 		);

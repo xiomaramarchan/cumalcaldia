@@ -4,7 +4,7 @@ Theme URI: https://themeansar.com/free-themes/newsup/
 Author: Themeansar
 Author URI: https://themeansar.com
 Description: Newsup is a fast, clean, modern-looking Best Responsive News Magazine WordPress theme. The theme is fully widgetized, so users can manage the content by using easy to use widgets. Newsup is suitable for dynamic news, newspapers, magazine, publishers, blogs, editors, online and gaming magazines, newsportals,personal blogs, newspaper, publishing or review siteand any creative website. Newsup is SEO friendly, WPML,Gutenberg, translation and RTL ready. Live preview : https://demo.themeansar.com/newsup and documentation at https://docs.themeansar.com/docs/newsup/
-Version: 3.0.0.32
+Version: 3.0.0.41
 Tested up to: 6.0
 Requires PHP: 5.6
 Tags: one-column, two-columns ,right-sidebar, flexible-header, custom-background, custom-header, custom-menu, editor-style, featured-images, footer-widgets,  theme-options, threaded-comments, rtl-language-support, translation-ready, full-width-template, custom-logo, blog, news
@@ -29,11 +29,14 @@ Text Domain: newsup
 	border-style: solid;
 }
 .site-home-icon a{font-size:24px;}
+.m-header {
+    display: none;
+}
 /*---------------------------------------
 	1.1.Top Bar           
 -----------------------------------------*/
 .mg-head-detail {
-	padding: 10px 0 0 0;
+	padding: 8px 0;
 }
 .mg-head-detail .info-left {
 	display: block;
@@ -293,6 +296,94 @@ Text Domain: newsup
     line-height: 30px;
     height: 30px;
 }
+.newsup-button {
+	font-size: 18px ;
+	line-height: 0;
+	margin-right: -15px;
+	margin-left: 5px;
+	display: flex;
+}
+.newsup-button-inner-left:empty {
+	margin-left: -0.625em 
+}
+.newsup-button-inner-left:before, .newsup-button-inner-left:after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	-webkit-transition: 0.4s ease-in-out;
+	-moz-transition: 0.4s ease-in-out;
+	-o-transition: 0.4s ease-in-out;
+	transition: 0.4s ease-in-out;
+	outline: none 
+}
+.newsup-button .newsup-button-inner, .newsup-button .newsup-button-inner-left {
+	display: inline-block;
+	font-size: 0.875em;
+	position: relative;
+	padding: 0em;
+	line-height: 1em;
+	cursor: pointer;
+	color: var(--pri-color);;
+	font-weight: normal 
+}
+.newsup-button .newsup-button-inner-left:before {
+	content: '';
+	display: block;
+	position: absolute;
+	z-index: 1;
+	line-height: 2.125em;
+	text-indent: 2.5em;
+	height: 1em;
+	width: 1em;
+	margin: 0.25em; 
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	right: 1.625em;
+	bottom: 0em;
+	background: var(--pri-color);
+	transform: rotate(-45deg); 
+}
+.newsup-button .newsup-button-inner-left:after {
+	content: "";
+	display: inline-block;
+	width: 2.5em;
+	height: 1.5em;
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+	border-radius: 1em;
+	background: #FFF;
+	vertical-align: middle;
+	margin: 0 0.625em;
+}
+.newsup-button.active .newsup-button-inner-left:before {
+	right: 1.0625em;
+	box-shadow: 0.3125em 0.3125em 0 0 #eee;
+	background: transparent 
+} 
+.newsup-button.active .newsup-button-inner-left:after {
+	background: rgba(0, 0, 0, 0.15);
+	border: 0.125em solid white 
+}
+.newsup-button .newsup-button-inner-left {
+	color: var(--pri-color);
+	font-weight: bold 
+} 
+.newsup-button.active .newsup-button-inner-left {
+	color: var(--pri-color);;
+	font-weight: normal 
+}
+.newsup-button.active .newsup-button-inner-left + .newsup-button-inner {
+	color: var(--pri-color);;
+	font-weight: bold 
+}
+.btn-bell {
+    padding: 5px;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
 /* --------------------------------------
 =========================================
 	2.General
@@ -320,7 +411,7 @@ body {
 	padding-left: 50px;
 }
 #content.home {
-    padding-top: 30px;
+    padding-top: 0;
     padding-bottom: 30px;
 }
 a:hover {
@@ -373,12 +464,6 @@ input[type="submit"], input[type="reset"], button {
 .wp-block-search .wp-block-search__input {
     border: 2px solid #eef3fb;
 }
-
-.widget_search
-{
-	padding: 20px !important;
-}
-
 
 .wp-block-search .wp-block-search__button
 {
@@ -807,7 +892,8 @@ button.mfp-close:hover, button.mfp-close:focus {
     padding: 0 8px 0 15px;
     position: relative;
     width: auto;
-    height: 40px;
+	min-height: 40px;
+    height: auto;
     display: inline-block;
 }
 .wp-block-search .wp-block-search__label::before, .mg-widget .wp-block-group h2::before {
@@ -817,8 +903,16 @@ button.mfp-close:hover, button.mfp-close:focus {
     top: 0px;
     height: 0;
     border-style: solid;
-    border-width: 40px 0 0px 30px;
+    border-width: 42px 0 0px 30px;
     content: "";
+}
+.wp-block-search .wp-block-search__label::after, .mg-widget .wp-block-group h2::after {
+	content: '';
+	position: absolute;
+	height: 2px;
+	width: 200vh;
+	left: 0;
+	bottom: -4px;
 }
 /*---------------------------------------
 =========================================
@@ -865,14 +959,13 @@ button.mfp-close:hover, button.mfp-close:focus {
     background-attachment: fixed;
 }
 .mg-fea-area.over {
-	margin-bottom: 0;
+	margin-bottom: 30px;
 }
 .mg-fea-area.over .overlay {
 	background: rgba(18,16,38,0.6); 
-	padding: 30px 0;
 }
 .mg-fea-area .overlay {
-	padding: 30px 0 0 0;
+	padding: 30px 0;
 	margin: 0;
 }
 .mg-blog-post.lg {
@@ -1462,6 +1555,7 @@ li.active.home {
 }	
 .top-right-area .mg-posts-sec-inner .small-list-post li{
     margin-bottom: 6px;
+    min-height: 103px;
 }
 .top-right-area .mg-posts-sec-inner .small-list-post .mg-blog-category {
     margin: 0;
@@ -1533,6 +1627,10 @@ li.active.home {
     height: auto;
     width: 100%;
     float: none;
+}
+
+.mg-posts-modul-4 .small-post.mg-post-1 p {
+    margin-bottom: -20px;
 }
 .mg-sec-title {
   font-weight: bold;
@@ -1978,6 +2076,7 @@ li.active.home {
     border-radius: 0;
     border-width: 1px;
     border-style: solid;
+	overflow-x: hidden;
 }
 .mg-sidebar .mg-widget ul, .mg-sidebar .mg-widget ol {
 	padding: 0;
@@ -2684,9 +2783,14 @@ max-height: 100%;
 	width: 100%;
 	padding-right: 15px;
 	padding-left: 15px;
+	display: flex;
+	justify-content: space-between;
 }
 .mobilehomebtn	{
 	display: block;
+}
+.desk-header {
+    display: none;
 }
 }
 @media screen and (min-width: 240px) and (max-width: 767px) {
@@ -2755,6 +2859,7 @@ max-height: 100%;
 }
 #homemain.pd-r-10 {
 	padding-right: 0;
+	margin-bottom: 30px;
 }
 .mr-xs{
 	margin-bottom: 30px;

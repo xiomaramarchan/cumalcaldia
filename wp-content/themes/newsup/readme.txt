@@ -4,8 +4,8 @@ Author: Themeansar
 Requires at least: WordPress 4.7
 Tested up to: 6.0
 Requires PHP: 5.6
-Stable tag: 3.0.0.32
-Version: 3.0.0.32
+Stable tag: 3.0.0.41
+Version: 3.0.0.41
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: one-column, two-columns ,right-sidebar, flexible-header, custom-background, custom-header, custom-menu, editor-style, featured-images, footer-widgets,  theme-options, threaded-comments, rtl-language-support, translation-ready, full-width-template, custom-logo, blog, news
@@ -609,8 +609,37 @@ License: CC0 Public Domain
 
 = Version 3.0.0.31
 * Fixed styling issue.
-* Remove unused code.
 
 = Version 3.0.0.32
 * Fixed styling issue.
-* Added Child theme support.
+
+= Version 3.0.0.33
+* Fixed styling issue.
+
+= Version 3.0.0.34
+* Fixed styling issue.
+
+= Version 3.0.0.35
+* Fixed Features Area styling issue.
+
+= Version 3.0.0.36
+* Fixed time setting issue.
+
+= Version 3.0.0.37
+* Fixed styling issue.
+
+= Version 3.0.0.38
+* Fixed styling issue.
+
+= Version 3.0.0.39
+* Fixed styling issue.
+* Fixed Menu Area issue.
+* Fixed Top Bar Area styling & Markup issue.
+* Improved Mobile Menu Area.
+* Improved featured post Widget Area.
+
+= Version 3.0.0.40
+1. Added Child Theme Support.
+
+= Version 3.0.0.41
+1. Added Subscribe button setting.

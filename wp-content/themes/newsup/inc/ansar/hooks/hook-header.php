@@ -11,7 +11,7 @@ function newsup_header_section()
 ?>
 <div class="mg-head-detail hidden-xs">
     <div class="container-fluid">
-        <div class="row">
+        <div class="row align-items-center">
             <?php
             $header_social_icon_enable = esc_attr(get_theme_mod('header_social_icon_enable','true'));
             $newsup_header_fb_link = get_theme_mod('newsup_header_fb_link');

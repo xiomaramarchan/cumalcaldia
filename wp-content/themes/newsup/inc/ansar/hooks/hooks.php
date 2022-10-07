@@ -182,6 +182,12 @@ if (!function_exists('newsup_banner_advertisement')):
             <!-- Trending line END -->
             <?php
         }
+
+         if (is_active_sidebar('home-advertisement-widgets')): ?>
+            <div class="mg-ads-area">
+                <?php dynamic_sidebar('home-advertisement-widgets'); ?>
+            </div>
+                <?php endif; 
     }
 endif;
 

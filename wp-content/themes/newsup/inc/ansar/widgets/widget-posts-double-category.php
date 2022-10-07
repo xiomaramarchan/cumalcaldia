@@ -116,7 +116,7 @@ if (!class_exists('Newsup_Dbl_Col_Cat_Posts')) :
                                                         <?php if($count_1 == 1) { ?>
                                                         <?php newsup_post_meta(); ?>
                                                         <!-- // title_small_post -->
-                                                        <p> <?php the_content();?></p><?php } ?>
+                                                         <?php the_content();?><?php } ?>
                                                         <!-- // title_small_post -->
                                                     </div>
                                                     <!-- // small-post-content -->
@@ -197,7 +197,7 @@ if (!class_exists('Newsup_Dbl_Col_Cat_Posts')) :
                                                         <?php if($count_2 == 1) { ?>
                                                       <?php newsup_post_meta(); ?>
                                                         <!-- // title_small_post -->
-                                                        <p> <?php the_content();?></p><?php } ?> 
+                                                        <?php the_content();?><?php } ?> 
                                                     </div>
                                                     <!-- // small-post-content -->
                                                 </li>

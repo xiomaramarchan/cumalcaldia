@@ -4,7 +4,7 @@ Theme URI: https://themeansar.com/free-themes/newsup/
 Author: Themeansar
 Author URI: https://themeansar.com
 Description: Newsup is a fast, clean, modern-looking Best Responsive News Magazine WordPress theme. The theme is fully widgetized, so users can manage the content by using easy to use widgets. Newsup is suitable for dynamic news, newspapers, magazine, publishers, blogs, editors, online and gaming magazines, newsportals,personal blogs, newspaper, publishing or review siteand any creative website. Newsup is SEO friendly, WPML,Gutenberg, translation and RTL ready. Live preview : https://demo.themeansar.com/newsup and documentation at https://docs.themeansar.com/docs/newsup/
-Version: 3.0.0.31
+Version: 3.0.0.37
 Tested up to: 6.0
 Requires PHP: 5.6
 Tags: one-column, two-columns ,right-sidebar, flexible-header, custom-background, custom-header, custom-menu, editor-style, featured-images, footer-widgets,  theme-options, threaded-comments, rtl-language-support, translation-ready, full-width-template, custom-logo, blog, news
@@ -334,7 +334,7 @@ body {
 	padding-left: 50px;
 }
 #content.home {
-    padding-top: 30px;
+    padding-top: 0;
     padding-bottom: 30px;
 }
 a:hover {
@@ -455,6 +455,11 @@ embed, iframe, object {
     right: 0;
     bottom: 0;
     left: 0;
+}
+
+.widget_search
+{
+	padding: 20px !important;
 }
 /*--------------- ti-slider-Control ---------------*/
 .owl-carousel .owl-controls {
@@ -830,7 +835,7 @@ button.mfp-close:hover, button.mfp-close:focus {
 	background: rgba(18,16,38,0.6);
 }
 .mg-fea-area .overlay {
-	padding: 30px 0 0 0;
+	padding: 30px 0;
 	margin: 0;
 }
 .mg-blog-post.lg {
@@ -1393,6 +1398,7 @@ li.active.home {
 }	
 .top-right-area .mg-posts-sec-inner .small-list-post li{
     margin-bottom: 6px;
+    min-height: 103px;
 }
 /*Featured Boxs Posts*/
 .mg-blog-inner {
@@ -2871,6 +2877,7 @@ max-height: 100%;
 }
 #homemain.pd-r-10 {
 	padding-right: 0;
+	margin-bottom: 30px;
 }
 .mr-xs{
 	margin-bottom: 30px;

@@ -65,9 +65,9 @@
           </div>
     <div class="mg-menu-full">
       <nav class="navbar navbar-expand-lg navbar-wp">
-        <div class="container-fluid flex-row-reverse">
+        <div class="container-fluid">
           <!-- Right nav -->
-                    <div class="m-header d-flex pl-3 ml-auto my-2 my-lg-0 position-relative align-items-center">
+                    <div class="m-header align-items-center">
                         <?php $home_url = home_url(); ?>
                         <a class="mobilehomebtn" href="<?php echo esc_url($home_url); ?>"><span class="fas fa-home"></span></a>
                         <!-- navbar-toggle -->
@@ -81,11 +81,10 @@
                         <div class="dropdown show mg-search-box pr-2">
                             <a class="dropdown-toggle msearch ml-auto" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                <i class="fas fa-search"></i>
-                            </a>
-
+                            </a> 
                             <div class="dropdown-menu searchinner" aria-labelledby="dropdownMenuLink">
-                        <?php get_search_form(); ?>
-                      </div>
+                                <?php get_search_form(); ?>
+                            </div>
                         </div>
                       <?php } ?>
                         
@@ -97,7 +96,7 @@
                   	<div class="d-md-block">
                   <?php wp_nav_menu( array(
         								'theme_location' => 'primary',
-        								'container'  => 'nav-collapse collapse navbar-inverse-collapse',
+        								'container'  => 'nav-collapse collapse',
         								'menu_class' => 'nav navbar-nav mr-auto',
         								'fallback_cb' => 'newsup_fallback_page_menu',
         								'walker' => new newsup_nav_walker()
@@ -105,6 +104,33 @@
         						?>
         				</div>		
               		</div>
+
+                    <!-- Right nav -->
+                    <div class="desk-header d-lg-flex pl-3 ml-auto my-2 my-lg-0 position-relative align-items-center">
+                        <!-- /navbar-toggle -->
+                        <?php $header_search_enable = get_theme_mod('header_search_enable','true');
+                        if($header_search_enable == true) {
+                        ?>
+                        <div class="dropdown show mg-search-box pr-2">
+                            
+
+                            <a class="dropdown-toggle msearch ml-auto" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                               <i class="fas fa-search"></i>
+                            </a>
+
+                            <div class="dropdown-menu searchinner" aria-labelledby="dropdownMenuLink">
+                                <?php get_search_form(); ?>
+                            </div>
+                        </div>
+                      <?php } 
+                      $header_subsc_enable = get_theme_mod('header_subsc_enable','true');
+                      $newsup_subsc_link = get_theme_mod('newsup_subsc_link');
+                      if($header_subsc_enable == true) {
+                      ?>
+                        <a href="<?php echo esc_url($newsup_subsc_link); ?>" class="btn-bell btn-theme mx-2"><i class="fa fa-bell"></i></a>
+                    <?php } ?>
+                    </div>
+                    <!-- /Right nav -->
           </div>
       </nav> <!-- /Navigation -->
     </div>
