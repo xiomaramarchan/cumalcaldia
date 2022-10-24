@@ -121,7 +121,7 @@
 							<div class="img-small-post">
 								<a href="<?php the_permalink(); ?>">
 	                            	<?php if (!empty($url)): ?>
-	                                	<img src="<?php echo esc_url($url); ?>">
+	                                	<img src="<?php echo esc_url($url); ?>" alt="<?php the_title(); ?>">
 	                            	<?php endif; ?>
 	                        	</a>
 							</div>

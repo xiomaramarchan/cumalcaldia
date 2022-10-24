@@ -170,7 +170,7 @@ class View extends AbstractView {
 		// Sale Product batch.
 		if ( $product->is_on_sale() && $settings->get_prop( 'show_onsale_tag' ) ) {
 			// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
-			echo apply_filters( 'woocommerce_sale_flash', '<span class="onsale">' . __( 'Sale!', 'carousel-slider' ) . '</span>', $product );
+			echo apply_filters( 'woocommerce_sale_flash', '<span class="onsale">' . __( 'Sale!', 'carousel-slider' ) . '</span>', get_post( $product->get_id() ), $product );
 		}
 
 		// Show Price.

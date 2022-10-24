@@ -114,6 +114,13 @@ function newsup_setup() {
 		'caption',
 	) );
 
+	/*
+     * Enable support for Post Formats on posts and pages.
+     *
+     * @link https://developer.wordpress.org/themes/functionality/post-formats/
+     */
+    add_theme_support( 'post-formats', array( 'image', 'video', 'gallery' ) );
+
 	$args = array(
     'default-color' => '#eee',
     'default-image' => '',

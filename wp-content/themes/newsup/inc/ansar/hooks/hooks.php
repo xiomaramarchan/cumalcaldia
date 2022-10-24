@@ -243,7 +243,7 @@ if (!function_exists('newsup_banner_featured_posts')):
                                     <div class="read-single color-pad">
                                         <div class="data-bg read-img pos-rel col-4 float-l read-bg-img"
                                              data-background="<?php echo esc_url($url); ?>">
-                                            <img src="<?php echo esc_url($url); ?>">
+                                            <img src="<?php echo esc_url($url); ?>" alt="<?php the_title(); ?>">
 
                                             <span class="min-read-post-format">
                                         <?php echo newsup_post_format($post->ID); ?>
@@ -314,7 +314,7 @@ if (!function_exists('newsup_front_page_banner_section')) :
                             {
                         ?>
                         <div class="col-md-8">
-                            <div id="homemain"class="homemain owl-carousel pd-r-10"> 
+                            <div id="homemain"class="homemain owl-carousel"> 
                                 <?php newsup_get_block('list', 'banner'); ?>
                             </div>
                         </div> 
@@ -324,7 +324,7 @@ if (!function_exists('newsup_front_page_banner_section')) :
                         <?php do_action('newsup_action_banner_tabbed_posts');?>
 
                         <div class="col-md-8">
-                            <div id="homemain"class="homemain owl-carousel pd-r-10"> 
+                            <div id="homemain"class="homemain owl-carousel"> 
                                 <?php newsup_get_block('list', 'banner'); ?>
                             </div>
                         </div>

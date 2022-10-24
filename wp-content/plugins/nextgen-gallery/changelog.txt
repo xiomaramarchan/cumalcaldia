@@ -1,6 +1,9 @@
 NextGEN Gallery
 by Imagely
 
+= V3.30  - 10.05.2022 =
+* Fixed:   Rotating images was broken for some users after the last release.
+
 = V3.29  - 09.28.2022 =
 * Fixed:   Added nonce verification to some legacy XHR handlers.
 

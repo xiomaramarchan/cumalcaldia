@@ -184,7 +184,7 @@ class Newsup_Widget_Base extends WP_Widget
                         if ($image_attributes):
                             ?>
 
-                            <img src="<?php echo esc_attr($image_attributes[0]); ?>" alt=""/>
+                            <img src="<?php echo esc_attr($image_attributes[0]); ?>" alt="upload"/>
                         <?php endif; ?>
                     <?php endif; ?>
                 </div><!-- .image-preview -->

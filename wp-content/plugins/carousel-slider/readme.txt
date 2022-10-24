@@ -5,7 +5,7 @@ Tags: carousel, carousel slider, image carousel, product carousel, woocommerce, 
 Requires at least: 5.6
 Tested up to: 6.0
 Requires PHP: 7.0
-Stable tag: 2.1.0
+Stable tag: 2.1.1
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.txt
 
@@ -95,6 +95,9 @@ Carousel Slider is first class citizen in Gutenberg Block Editor. Just search 'c
 a dedicated 'carousel slider' block with live preview for Gutenberg Block Editor.
 
 == Changelog ==
+
+= version 2.1.1 - 2022-10-04 =
+* Fix - Fix error for WooCommerce product carousel error.
 
 = version 2.1.0 - 2022-05-27 =
 * Feature - Add new javaScript dialog to create carousel slider with title and slider type.

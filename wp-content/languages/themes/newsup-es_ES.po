@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the Themes - Newsup package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-30 21:57:55+0000\n"
+"PO-Revision-Date: 2022-10-12 09:32:21+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
 "Language: es\n"
 "Project-Id-Version: Themes - Newsup\n"
 
@@ -22,15 +22,27 @@ msgstr "Newsup es un tema para WordPress rápido, limpio, de aspecto moderno, ad
 msgid "Newsup"
 msgstr "Newsup"
 
-#: inc/ansar/customize/customizer.php:285
+#: inc/ansar/customize/theme-options.php:393
+msgid "Link"
+msgstr "Enlace"
+
+#: inc/ansar/customize/theme-options.php:376
+msgid "Hide / Show"
+msgstr "Ocultar / Mostrar"
+
+#: inc/ansar/customize/theme-options.php:360
+msgid "Subscribe"
+msgstr "Suscribir"
+
+#: inc/ansar/customize/customizer.php:295
 msgid "Display Center Site Title and Tagline"
 msgstr "Mostrar el título del sitio y la descripción corta en el  centro"
 
-#: inc/ansar/customize/theme-options.php:1151
+#: inc/ansar/customize/theme-options.php:1201
 msgid "Hide/Show Footer Menu"
 msgstr "Ocultar/mostrar el menú del pie de página"
 
-#: inc/ansar/customize/theme-options.php:1132
+#: inc/ansar/customize/theme-options.php:1182
 msgid "Footer Menu"
 msgstr "Menú del pie de página"
 
@@ -50,7 +62,7 @@ msgstr "Seleccionar la posición del carrusel"
 msgid "Add a menu"
 msgstr "Añadir un menú"
 
-#: inc/ansar/customize/customizer.php:265
+#: inc/ansar/customize/customizer.php:275
 msgid "Site Title Size"
 msgstr "Tamaño del título del sitio"
 
@@ -66,12 +78,12 @@ msgstr "Buscar"
 msgid "Ansar Demo Import"
 msgstr "Ansar Demo Import"
 
-#: inc/ansar/customize/theme-options.php:865
+#: inc/ansar/customize/theme-options.php:915
 msgid "Text Color"
 msgstr "Color del texto"
 
 #: inc/ansar/customize/theme-options.php:292
-#: inc/ansar/customize/theme-options.php:1101
+#: inc/ansar/customize/theme-options.php:1151
 msgid "Telegram URL"
 msgstr "URL de Telegram"
 
@@ -80,27 +92,27 @@ msgstr "URL de Telegram"
 msgid "Edit"
 msgstr "Editar"
 
-#: inc/ansar/customize/theme-options.php:648
+#: inc/ansar/customize/theme-options.php:698
 msgid "Hide/Show Sharing Icons"
 msgstr "Ocultar o mostrar los iconos para compartir"
 
-#: inc/ansar/customize/theme-options.php:1180
+#: inc/ansar/customize/theme-options.php:1230
 msgid "Auto Height Post Image"
 msgstr "Altura automática de la imagen de las entradas"
 
-#: inc/ansar/customize/theme-options.php:1179
+#: inc/ansar/customize/theme-options.php:1229
 msgid "Fix Height Post Image"
 msgstr "Altura fija de la imagen de las entradas"
 
-#: inc/ansar/customize/theme-options.php:1177
+#: inc/ansar/customize/theme-options.php:1227
 msgid "Post Image display type:"
 msgstr "Tipo de visualización de la imagen de las entradas:"
 
-#: inc/ansar/customize/theme-options.php:1161
+#: inc/ansar/customize/theme-options.php:1211
 msgid "Post Image Settings"
 msgstr "Ajustes de la imagen de las entradas"
 
-#: inc/ansar/customize/theme-options.php:618
+#: inc/ansar/customize/theme-options.php:668
 msgid "Hide/Show Tag"
 msgstr "Ocultar/mostrar las etiquetas"
 
@@ -117,7 +129,7 @@ msgid "Date / Time in header display type:"
 msgstr "Tipo de visualización de la fecha y hora en la cabecera:"
 
 #. translators: %s: Name of current post. Only visible to screen readers
-#: inc/ansar/template-functions.php:209 inc/ansar/template-functions.php:265
+#: inc/ansar/template-functions.php:209 inc/ansar/template-functions.php:264
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr "Editar <span class=\"screen-reader-text\">%s</span>"
 
@@ -178,114 +190,114 @@ msgstr "Funciona gracias a %s"
 msgid "https://wordpress.org/"
 msgstr "https://es.wordpress.org/"
 
-#: inc/ansar/customize/theme-options.php:1069
+#: inc/ansar/customize/theme-options.php:1119
 msgid "Pinterest URL"
 msgstr "URL de Pinterest"
 
-#: inc/ansar/customize/theme-options.php:880
+#: inc/ansar/customize/theme-options.php:930
 msgid "Select Column Layout"
 msgstr "Elige un diseño de columnas"
 
 #: inc/ansar/customize/frontpage-options.php:24
-#: inc/ansar/customize/theme-options.php:853
+#: inc/ansar/customize/theme-options.php:903
 msgid "Overlay Color"
 msgstr "Color de superposición"
 
-#: inc/ansar/customize/theme-options.php:840
+#: inc/ansar/customize/theme-options.php:890
 msgid "Background Image"
 msgstr "Imagen de fondo"
 
-#: inc/ansar/customize/theme-options.php:827
+#: inc/ansar/customize/theme-options.php:877
 msgid "Footer Options"
 msgstr "Opciones del pie de página"
 
-#: inc/ansar/customize/theme-options.php:807
+#: inc/ansar/customize/theme-options.php:857
 msgid "You Missed"
 msgstr "Te has perdido"
 
-#: inc/ansar/customize/theme-options.php:796
+#: inc/ansar/customize/theme-options.php:846
 msgid "Hide / Show You Missed Section"
 msgstr "Mostrar/ocultar la sección «Te has perdido»"
 
-#: inc/ansar/customize/theme-options.php:781
+#: inc/ansar/customize/theme-options.php:831
 msgid "You Missed Section"
 msgstr "Sección «Te has perdido»"
 
-#: inc/ansar/customize/theme-options.php:588
-#: inc/ansar/customize/theme-options.php:662
+#: inc/ansar/customize/theme-options.php:638
+#: inc/ansar/customize/theme-options.php:712
 msgid "Hide/Show Author Details"
 msgstr "Ocultar/mostrar los detalles del autor"
 
-#: inc/ansar/customize/theme-options.php:757
+#: inc/ansar/customize/theme-options.php:807
 msgid "Hide/Show Author Name"
 msgstr "Ocultar/mostrar el nombre del autor"
 
-#: inc/ansar/customize/theme-options.php:772
+#: inc/ansar/customize/theme-options.php:822
 msgid "Hide/Show Comments"
 msgstr "Ocultar/mostrar los comentarios"
 
-#: inc/ansar/customize/theme-options.php:603
-#: inc/ansar/customize/theme-options.php:743
+#: inc/ansar/customize/theme-options.php:653
+#: inc/ansar/customize/theme-options.php:793
 msgid "Hide/Show Date"
 msgstr "Ocultar/mostrar la fecha"
 
-#: inc/ansar/customize/theme-options.php:573
-#: inc/ansar/customize/theme-options.php:729
+#: inc/ansar/customize/theme-options.php:623
+#: inc/ansar/customize/theme-options.php:779
 msgid "Hide/Show Categories"
 msgstr "Ocultar/mostrar las categorías"
 
-#: inc/ansar/customize/theme-options.php:708
+#: inc/ansar/customize/theme-options.php:758
 msgid "Related Posts"
 msgstr "Entradas relacionadas"
 
-#: inc/ansar/customize/theme-options.php:700
+#: inc/ansar/customize/theme-options.php:750
 msgid "Enable Related Posts"
 msgstr "Activar entradas relacionadas"
 
-#: inc/ansar/customize/theme-options.php:633
+#: inc/ansar/customize/theme-options.php:683
 msgid "Hide/Show Featured Image"
 msgstr "Mostrar/ocultar la imagen destacada"
 
-#: inc/ansar/customize/theme-options.php:536
-#: inc/ansar/customize/theme-options.php:556
+#: inc/ansar/customize/theme-options.php:586
+#: inc/ansar/customize/theme-options.php:606
 msgid "Single Post"
 msgstr "Entrada individual"
 
-#: inc/ansar/customize/theme-options.php:526
+#: inc/ansar/customize/theme-options.php:576
 msgid "Hide All"
 msgstr "Ocultar todo"
 
-#: inc/ansar/customize/theme-options.php:525
+#: inc/ansar/customize/theme-options.php:575
 msgid "Show Author Only"
 msgstr "Mostrar solo el autor"
 
-#: inc/ansar/customize/theme-options.php:524
+#: inc/ansar/customize/theme-options.php:574
 msgid "Show Date Only"
 msgstr "Mostrar solo la fecha"
 
-#: inc/ansar/customize/theme-options.php:523
+#: inc/ansar/customize/theme-options.php:573
 msgid "Show Date and Author"
 msgstr "Mostrar la fecha y el autor"
 
-#: inc/ansar/customize/theme-options.php:500
-#: inc/ansar/customize/theme-options.php:519
+#: inc/ansar/customize/theme-options.php:550
+#: inc/ansar/customize/theme-options.php:569
 msgid "Date and Author"
 msgstr "Fecha y autor"
 
-#: inc/ansar/customize/theme-options.php:459
+#: inc/ansar/customize/theme-options.php:509
 msgid "Single Blog Pages"
 msgstr "Páginas de blog individuales"
 
-#: inc/ansar/customize/theme-options.php:434
-#: inc/ansar/customize/theme-options.php:483
+#: inc/ansar/customize/theme-options.php:484
+#: inc/ansar/customize/theme-options.php:533
 msgid "Layout"
 msgstr "Diseño"
 
-#: inc/ansar/customize/theme-options.php:410
+#: inc/ansar/customize/theme-options.php:460
 msgid "Archive Blog Pages"
 msgstr "Páginas del archivo del blog"
 
-#: inc/ansar/customize/theme-options.php:392
+#: inc/ansar/customize/theme-options.php:442
 msgid "Content Layout Settings"
 msgstr "Ajustes del diseño del contenido"
 
@@ -294,32 +306,32 @@ msgid "Pintrest URL"
 msgstr "URL de Pinterest"
 
 #: inc/ansar/customize/theme-options.php:229
-#: inc/ansar/customize/theme-options.php:1038
+#: inc/ansar/customize/theme-options.php:1088
 msgid "Youtube URL"
 msgstr "URL de YouTube"
 
 #: inc/ansar/customize/theme-options.php:198
-#: inc/ansar/customize/theme-options.php:1007
+#: inc/ansar/customize/theme-options.php:1057
 msgid "Instagram URL"
 msgstr "URL de Instagram"
 
 #: inc/ansar/customize/theme-options.php:165
-#: inc/ansar/customize/theme-options.php:975
+#: inc/ansar/customize/theme-options.php:1025
 msgid "Linkedin URL"
 msgstr "URL de LinkedIn"
 
 #: inc/ansar/customize/theme-options.php:134
-#: inc/ansar/customize/theme-options.php:943
+#: inc/ansar/customize/theme-options.php:993
 msgid "Twitter URL"
 msgstr "URL de Twitter"
 
 #: inc/ansar/customize/theme-options.php:100
-#: inc/ansar/customize/theme-options.php:912
+#: inc/ansar/customize/theme-options.php:962
 msgid "Facebook URL"
 msgstr "URL de Facebook"
 
 #: inc/ansar/customize/theme-options.php:82
-#: inc/ansar/customize/theme-options.php:894
+#: inc/ansar/customize/theme-options.php:944
 msgid "Hide / Show Social Icon"
 msgstr "Ocultar/mostrar los iconos sociales"
 
@@ -416,13 +428,13 @@ msgstr "Ocultar/mostrar las etiquetas principales"
 #: inc/ansar/customize/theme-options.php:243
 #: inc/ansar/customize/theme-options.php:275
 #: inc/ansar/customize/theme-options.php:307
-#: inc/ansar/customize/theme-options.php:926
-#: inc/ansar/customize/theme-options.php:958
-#: inc/ansar/customize/theme-options.php:989
-#: inc/ansar/customize/theme-options.php:1021
-#: inc/ansar/customize/theme-options.php:1052
-#: inc/ansar/customize/theme-options.php:1083
-#: inc/ansar/customize/theme-options.php:1115
+#: inc/ansar/customize/theme-options.php:976
+#: inc/ansar/customize/theme-options.php:1008
+#: inc/ansar/customize/theme-options.php:1039
+#: inc/ansar/customize/theme-options.php:1071
+#: inc/ansar/customize/theme-options.php:1102
+#: inc/ansar/customize/theme-options.php:1133
+#: inc/ansar/customize/theme-options.php:1165
 msgid "Open link in a new tab"
 msgstr "Abrir el enlace en una pestaña nueva"
 
@@ -627,8 +639,8 @@ msgstr "Muestra las entradas de la categoría seleccionada en una columna indivi
 msgid "Select category"
 msgstr "Seleccionar la categoría"
 
-#: inc/ansar/customize/theme-options.php:714
-#: inc/ansar/customize/theme-options.php:817
+#: inc/ansar/customize/theme-options.php:764
+#: inc/ansar/customize/theme-options.php:867
 #: inc/ansar/widgets/widget-design-slider.php:115
 #: inc/ansar/widgets/widget-posts-list.php:137
 #: inc/ansar/widgets/widget-posts-slider.php:116
@@ -840,7 +852,7 @@ msgstr "Portada"
 msgid "Skip to content"
 msgstr "Saltar al contenido"
 
-#: inc/ansar/customize/theme-options.php:681 single.php:108
+#: inc/ansar/customize/theme-options.php:731 single.php:108
 msgid "Related Post"
 msgstr "Entrada relacionada"
 

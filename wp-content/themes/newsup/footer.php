@@ -81,7 +81,7 @@ $you_missed_enable = esc_attr(get_theme_mod('you_missed_enable','true'));
                                <?php the_custom_logo(); 
                                if (display_header_text()) : ?>
                               <div class="site-branding-text">
-                              <h1 class="site-title-footer"> <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php echo esc_html(get_bloginfo( 'name' )); ?></a></h1>
+                              <p class="site-title-footer"> <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php echo esc_html(get_bloginfo( 'name' )); ?></a></p>
                               <p class="site-description-footer"><?php echo esc_html(get_bloginfo( 'description' )); ?></p>
                               </div>
                               <?php endif; ?>
@@ -165,15 +165,17 @@ $you_missed_enable = esc_attr(get_theme_mod('you_missed_enable','true'));
                                 <p>
                                 <a href="<?php echo esc_url( __( 'https://wordpress.org/', 'newsup' ) ); ?>">
 								<?php
-								/* translators: placeholder replaced with string */
-								printf( esc_html__( 'Proudly powered by %s', 'newsup' ), 'WordPress' );
+								/* translators: placeholder replaced with string 
+								printf( esc_html__( 'Proudly powered by %s', 'newsup' ), 'WordPress' );*/
 								?>
+                                Alcaldia
 								</a>
 								<span class="sep"> | </span>
-								<?php
-								/* translators: placeholder replaced with string */
+                                Cumaná
+								<!--<?php
+								/* translators: placeholder replaced with string 
 								printf( esc_html__( 'Theme: %1$s by %2$s.', 'newsup' ), 'Newsup', '<a href="' . esc_url( __( 'https://themeansar.com/', 'newsup' ) ) . '" rel="designer">Themeansar</a>' );
-								?>
+								*/?>-->
 								</p>
                             </div>
 

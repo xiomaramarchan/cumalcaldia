@@ -90,7 +90,7 @@ function newsup_getting_started_page() { ?>
 				<p><?php esc_html_e( 'Newsup is a fast, clean, modern-looking Best Responsive News Magazine WordPress theme. The theme is fully widgetized, so users can manage the content by using easy to use widgets. Newsup is suitable for dynamic news, newspapers, magazine, publishers, blogs, editors, online and gaming magazines, newsportals,personal blogs, newspaper, publishing or review siteand any creative website. Newsup is SEO friendly, WPML,Gutenberg, translation and RTL ready. Live preview : https://demo.themeansar.com/newsup and documentation at https://docs.themeansar.com/docs/newsup/', 'newsup' ); ?></p>
 			</div>
 			<div class="intro right">
-				<a target="_blank" href="https://themeansar.com/"><img src="<?php echo esc_url(get_template_directory_uri());  ?>/inc/ansar/admin/images/logo.png"></a>
+				<a target="_blank" href="https://themeansar.com/"><img src="<?php echo esc_url(get_template_directory_uri());  ?>/inc/ansar/admin/images/logo.png" alt="Theme Ansar"></a>
 			</div>
 		</div>
 		<div class="panels">

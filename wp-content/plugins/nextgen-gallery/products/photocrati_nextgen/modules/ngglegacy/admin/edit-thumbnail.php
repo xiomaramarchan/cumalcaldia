@@ -182,7 +182,7 @@ if ($thumbnail_crop_frame != null)
 <div id="ngg-overlay-dialog-bottom">
     <div id="thumbMsg"></div>
     <?php $update_thumb_nonce = wp_create_nonce('ngg_update_thumbnail'); ?>
-	<input type="button" name="update" value="<?php esc_attr_e('Update', 'nggallery'); ?>" onclick="updateThumb(<?php print esc_attr($update_thumb_nonce); ?>)" class="button-secondary" />
+	<input type="button" name="update" value="<?php esc_attr_e('Update', 'nggallery'); ?>" onclick="updateThumb('<?php print esc_attr($update_thumb_nonce); ?>')" class="button-secondary" />
 </div>
 
 <script type="text/javascript">

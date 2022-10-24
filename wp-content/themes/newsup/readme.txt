@@ -4,8 +4,8 @@ Author: Themeansar
 Requires at least: WordPress 4.7
 Tested up to: 6.0
 Requires PHP: 5.6
-Stable tag: 3.0.0.41
-Version: 3.0.0.41
+Stable tag: 3.0.0.46
+Version: 3.0.0.46
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: one-column, two-columns ,right-sidebar, flexible-header, custom-background, custom-header, custom-menu, editor-style, featured-images, footer-widgets,  theme-options, threaded-comments, rtl-language-support, translation-ready, full-width-template, custom-logo, blog, news
@@ -64,9 +64,11 @@ double category, tabbed function, featured function, exclusive post function, ht
  * https://github.com/vadikom/smartmenus/blob/master/src/addons/keyboard/jquery.smartmenus.keyboard.js
 
 * Screenshot Banner Image - https://pxhere.com/en/photo/1446003
+* https://negativespace.co/abstract-flowing-laser-dark/
 License: CC0 Public Domain
 
 == Post Image ==
+
 License: CC0 Public Domain
 * https://stocksnap.io/photo/IFZYRGBZZS
 * https://stocksnap.io/photo/K8NTTCGBZU
@@ -643,3 +645,20 @@ License: CC0 Public Domain
 
 = Version 3.0.0.41
 1. Added Subscribe button setting.
+
+= Version 3.0.0.42
+* Fixed & Improved Markup issue.
+
+= Version 3.0.0.43
+* Fixed & Improved Markup issue.
+* removed unused class issue.
+
+= Version 3.0.0.44
+* Fixed styling issue.
+
+= Version 3.0.0.45
+* update header image
+* update screenshot
+
+= Version 3.0.0.46
+* Added Post Format Support.

@@ -2,7 +2,7 @@
 Contributors: photocrati, imagely
 Tags: wordpress gallery plugin, gallery, nextgen, nextgen gallery, photo gallery, image gallery, photography, slideshow, images, photo, photo album, watermark
 Requires at least: 5.5.4
-Stable tag: 3.29
+Stable tag: 3.30
 Tested up to: 6.0.2
 License: GPLv3
 Requires PHP: 5.6
@@ -178,6 +178,9 @@ For more information, feel free to visit the official website for the NextGEN Ga
 
 
 == Changelog ==
+
+= V3.30  - 10.05.2022 =
+* Fixed:   Rotating images was broken for some users after the last release.
 
 = V3.29  - 09.28.2022 =
 * Fixed:   Added nonce verification to some legacy XHR handlers.
